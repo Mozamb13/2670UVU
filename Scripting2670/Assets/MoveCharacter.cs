@@ -7,6 +7,7 @@ public class MoveCharacter : MonoBehaviour {
 	CharacterController cc;
 	Vector3 tempMove;
 	public float speed = 5;
+	public float gravity = 1;
 
 	// Use this for initialization
 	void Start () {

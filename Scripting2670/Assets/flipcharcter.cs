@@ -12,7 +12,7 @@ public class flipcharcter : MonoBehaviour {
 		MoveInput.KeyAction += Flip;
 	}
 	
-	// Update is called once per frame
+	// Update is called once per frame 
 	private void Flip (float obj)
 	{
 		if(obj > 0 )
